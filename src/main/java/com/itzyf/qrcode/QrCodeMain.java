@@ -80,6 +80,11 @@ public class QrCodeMain {
         });
     }
 
+    /**
+     * 获取图片
+     *
+     * @return
+     */
     private static ImageIcon getIcon() {
         ImageIcon image;
         try {
@@ -96,6 +101,11 @@ public class QrCodeMain {
         return image;
     }
 
+    /**
+     * 创建二维码
+     *
+     * @param text 二维码内容
+     */
     private static void createQrCode(String text) {
         if ("".equals(text)) {
             return;
