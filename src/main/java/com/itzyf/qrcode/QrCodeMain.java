@@ -11,6 +11,9 @@ import java.io.*;
 
 public class QrCodeMain {
 
+    /**
+     * 临时生成的二维码图片路径
+     */
     public static final String FILE_PATH = System.getProperty("java.io.tmpdir") + "/qrcode.jpg";
 
     public static void main(String[] args) {
